@@ -15,11 +15,13 @@ Using the slicing concept rotate the list
 ### Step 5: 
 ### Step 6: 
 ## Program:
+~~~
 def circulate():
     l=[10,20,30,40,50,60]
     n=int(input()) 
     p=l[n:]+l[:n]
     print("After circulating the values are:",p) 
+~~~
 ## Output:
 ![OUTPUT](/IMAGES/circulate.png)
 
